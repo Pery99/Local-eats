@@ -119,7 +119,7 @@ export default function RestaurantList() {
           cuisine: "Nigerian • Rice Dishes",
           rating: 4.6,
           distance: 0.8,
-          priceRange: "₦₦",
+          priceRange: "₦2,000",
           isOpen: true,
           isNew: false,
           image:
@@ -131,7 +131,7 @@ export default function RestaurantList() {
           cuisine: "Nigerian • Grills",
           rating: 4.7,
           distance: 2.0,
-          priceRange: "₦",
+          priceRange: "₦6,000",
           isOpen: true,
           isNew: false,
           image:
@@ -143,7 +143,7 @@ export default function RestaurantList() {
           cuisine: "Nigerian • Seafood",
           rating: 4.5,
           distance: 3.1,
-          priceRange: "₦₦₦",
+          priceRange: "₦₦10,000",
           isOpen: false,
           isNew: false,
           image:
@@ -155,7 +155,7 @@ export default function RestaurantList() {
           cuisine: "Nigerian • Yoruba Cuisine",
           rating: 4.9,
           distance: 1.5,
-          priceRange: "₦₦",
+          priceRange: "₦900",
           isOpen: true,
           isNew: true,
           image:
@@ -167,7 +167,7 @@ export default function RestaurantList() {
           cuisine: "Nigerian • Soups",
           rating: 4.4,
           distance: 0.5,
-          priceRange: "₦₦",
+          priceRange: "₦4,000",
           isOpen: true,
           isNew: false,
           image:
@@ -179,7 +179,7 @@ export default function RestaurantList() {
           cuisine: "Nigerian • Street Food",
           rating: 4.3,
           distance: 1.8,
-          priceRange: "₦",
+          priceRange: "₦800 - ₦10,000",
           isOpen: true,
           isNew: false,
           image:
@@ -191,7 +191,7 @@ export default function RestaurantList() {
           cuisine: "Nigerian • Buffet",
           rating: 4.7,
           distance: 2.5,
-          priceRange: "₦₦₦",
+          priceRange: "₦600 - ₦55,000",
           isOpen: true,
           isNew: true,
           image:
@@ -203,7 +203,7 @@ export default function RestaurantList() {
           cuisine: "Nigerian • Street Food",
           rating: 4.2,
           distance: 0.3,
-          priceRange: "₦",
+          priceRange: "₦700 - ₦3,000",
           isOpen: true,
           isNew: false,
           image:

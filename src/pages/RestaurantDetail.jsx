@@ -191,8 +191,9 @@ export default function RestaurantDetail() {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gray-50 pt-20">
-        <div className="container mx-auto px-4 py-8">
+      <div className="min-h-screen bg-gray-50">
+        <Header />
+        <div className="container mx-auto px-4 py-8 mt-[100px] md:mt-[80px]">
           <div className="animate-pulse space-y-4">
             <div className="h-8 bg-gray-200 rounded w-1/4" />
             <div className="h-4 bg-gray-200 rounded w-1/2" />
@@ -208,7 +209,7 @@ export default function RestaurantDetail() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
-      <div className="container mx-auto px-4 py-8 pt-20">
+      <div className="container mx-auto px-4 py-8 mt-[100px] md:mt-[80px]">
         {/* Back Button */}
         <Link
           to="/"
@@ -232,13 +233,13 @@ export default function RestaurantDetail() {
 
         {/* Restaurant Header */}
         <div className="bg-white rounded-lg p-6 shadow-md mb-8">
-          <div className="flex justify-between items-start">
+          <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
             <div>
-              <h1 className="text-3xl font-bold text-dark">
+              <h1 className="text-2xl md:text-3xl font-bold text-dark">
                 {restaurant.name}
               </h1>
               <p className="text-gray-600 mt-1">{restaurant.cuisine}</p>
-              <div className="flex items-center mt-2">
+              <div className="flex flex-wrap items-center gap-2 mt-2">
                 <div className="flex items-center">
                   <span className="text-primary font-semibold mr-1">
                     {restaurant.rating}
@@ -260,11 +261,11 @@ export default function RestaurantDetail() {
                     ))}
                   </div>
                 </div>
-                <span className="text-gray-500 ml-2">
+                <span className="text-gray-500">
                   ({restaurant.reviewCount} reviews)
                 </span>
                 <span
-                  className={`ml-4 px-2 py-1 rounded-full text-sm ${
+                  className={`px-2 py-1 rounded-full text-sm whitespace-nowrap ${
                     restaurant.isOpen
                       ? "bg-green-100 text-green-800"
                       : "bg-red-100 text-red-800"
@@ -274,9 +275,13 @@ export default function RestaurantDetail() {
                 </span>
               </div>
             </div>
-            <div className="space-y-2">
-              <button className="w-full btn btn-primary">Order Online</button>
-              <button className="w-full btn btn-secondary">Book a Table</button>
+            <div className="flex md:flex-col gap-2 md:gap-2 mt-4 md:mt-0">
+              <button className="flex-1 md:w-full btn btn-primary">
+                Order Online
+              </button>
+              <button className="flex-1 md:w-full btn btn-secondary">
+                Book a Table
+              </button>
             </div>
           </div>
         </div>

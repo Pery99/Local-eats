@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative pt-[160px] md:pt-[180px] pb-20 bg-gradient-to-b from-primary/10 to-white">
+      <section className="relative pt-[140px] md:pt-[140px] pb-20 bg-gradient-to-b from-primary/10 to-white">
         {/* Decorative Elements */}
         <div className="absolute left-0 top-1/3 -translate-y-1/2 w-24 h-24 bg-accent/10 rounded-full blur-2xl"></div>
         <div className="absolute right-0 top-1/4 w-32 h-32 bg-primary/10 rounded-full blur-2xl"></div>
