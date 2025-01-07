@@ -1,0 +1,39 @@
+{
+  "short_name": "Local Eats",
+  "name": "Local Eats - Nigerian Food Delivery",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#FF6B35",
+  "background_color": "#ffffff",
+  "description": "Order authentic Nigerian cuisine from local restaurants",
+  "orientation": "portrait",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.localeats.app",
+      "id": "com.localeats.app"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/app/localeats/id123456789"
+    }
+  ]
+}

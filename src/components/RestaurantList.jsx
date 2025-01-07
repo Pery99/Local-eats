@@ -123,7 +123,7 @@ export default function RestaurantList() {
           isOpen: true,
           isNew: false,
           image:
-            "https://images.unsplash.com/photo-1575920956925-0f3199a32e78?auto=format&fit=crop&w=800&q=80",
+            "https://i.pinimg.com/736x/a7/4b/cb/a74bcb0ac99a32475e945016731d8d39.jpg",
         },
         {
           id: 3,
@@ -207,7 +207,7 @@ export default function RestaurantList() {
           isOpen: true,
           isNew: false,
           image:
-            "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?auto=format&fit=crop&w=800&q=80",
+            "https://i.pinimg.com/736x/a0/8c/d8/a08cd882f77dd85ce08f8ed4398683af.jpg",
         },
       ]);
       setIsLoading(false);
